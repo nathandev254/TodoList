@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <title>Todolist</title>
-</head>
-<body>
-    <div class="Hero">
+  </head>
+  <body>
+    <div class="container">
+      <div class="Todo-container">
+        <h1 class="header">Todolist</h1>
         <form action="">
-            <label for="">Enter the Todo</label>
-            <input type="text" class="text">
-            <button>Submit</button>
-    
+          <div class="input">
+            <input class="Todo-input" type="text" />
+            <button>submit</button>
+          </div>
         </form>
+        <div class="output">
+          <p>learning html</p>
+          <div class="icon-container">
+            <i class="fa-solid fa-trash icon"></i>
+          </div>
+        </div>
+      </div>
     </div>
-    <ul class="items"></ul>
-    <script src="script.js"></script>
-</body>
+  </body>
 </html>
